@@ -12,7 +12,7 @@ const price = `$ ${props.price.toFixed(2)}`;  //toFixed(2) to provide two decima
                 <div className={classes.price}>{price}</div>
             </div>
             <div>
-                <MealItemForm />
+                <MealItemForm id={props.is}/>
             </div>
         </li>
     )
