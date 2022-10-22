@@ -14,7 +14,7 @@ const amountInputRef = useRef();
             setAmountIsVAlid(false)
             return;
         }
-        props.onAsddToCart(enteredAmountNumber);
+        props.onAddToCart(enteredAmountNumber);
     }
     return (
         <form className={classes.form} onSubmit={submitHandler}>
